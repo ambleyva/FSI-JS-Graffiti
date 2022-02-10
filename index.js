@@ -9,4 +9,4 @@ for(let i = 0; i < dogNames.length; i++){
 }
 let footerText = document.querySelector('footer')
 for(let i = 0; i < footerText.length; i++){
-    footerText[i].style.color = 'purple'}
+    footerText[i].style.color = 'red'}
