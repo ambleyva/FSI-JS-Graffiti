@@ -8,6 +8,5 @@ for(let i = 0; i < dogNames.length; i++){
     dogNames[i].style.textAlign = 'left'
 }
 let footerText = document.querySelector('footer')
-footerText.style.color = 'purple'
-dogNames.style.text = 'bold'
-dogNames.style.color= 'pink'
+for(let i = 0; i < footerText.length; i++){
+    footerText[i].style.color = 'purple'}
