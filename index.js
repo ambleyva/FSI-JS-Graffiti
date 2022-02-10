@@ -8,4 +8,7 @@ for(let i = 0; i < dogNames.length; i++){
     dogNames[i].style.textAlign = 'left'
 }
 let footerText = document.querySelector('#footer')
-footerText.style.color= 'red'
+let dogDescript = document.querySelectorAll('dog-description')
+for(let i =0; i < dogDescript.length; i++){
+    dogDescript[i].style.borderRadius = 'ridged'
+}
